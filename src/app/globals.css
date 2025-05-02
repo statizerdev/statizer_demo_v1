@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  background: #000;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  max-height: 100%;
+  max-width: 100%;
+}
+html {
+  max-height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+#bg {
+  transition: opacity 2s ease-in-out;
+  height: 100%;
+  left: 0;
+  opacity: 0.375;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+#bg div {
+  transition: opacity 3s ease;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  width: 150%;
+}
+#bg div.visible {
+  animation: bg 45s linear infinite;
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+}
+#bg div.visible.top {
+  z-index: 2;
+}
+@keyframes bg {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-25%);
+  }
+}
