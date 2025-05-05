@@ -134,13 +134,6 @@ export default function Hero() {
             <h4>Powered By</h4>
             <p>Statizer is proudly powered by Euphonix & INVIBES Recordings, ensuring reliable and accurate data for artists.</p>
 
-            <h4>Get Started</h4>
-            <ol>
-              <li>Visit the Statizer Web App (statizer.net).</li>
-              <li>Log in with your account credentials.</li>
-              <li>Connect your streaming platform accounts.</li>
-              <li>Start exploring your stats!</li>
-            </ol>
 
             <h4>Support</h4>
             <p>For any questions or support, please contact us at <a href="mailto:support@statizer.com">support@statizer.com</a></p>
