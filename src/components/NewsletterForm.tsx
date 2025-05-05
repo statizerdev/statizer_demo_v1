@@ -12,12 +12,14 @@ export default function NewsletterForm() {
     setMessage('');
     setSubmitting(true);
 
+    // Ha az email üres, üzenet megjelenítése
     if (!email.trim()) {
       setMessage('Please enter your email!');
       setSubmitting(false);
       return;
     }
 
+    // Feliratkozás küldése a Formspree-ra
     try {
       const response = await fetch('https://formspree.io/f/mrbpnjqr', {
         method: 'POST',

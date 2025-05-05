@@ -36,7 +36,7 @@ export default function Hero() {
         🚀 Statizer platform is coming soon — stay tuned!
       </motion.p>
 
-      {/* Spotify embed blokk jön itt */}
+      {/* Spotify embed blokk */}
       <div
         style={{
           display: 'flex',
@@ -133,7 +133,6 @@ export default function Hero() {
 
             <h4>Powered By</h4>
             <p>Statizer is proudly powered by Euphonix & INVIBES Recordings, ensuring reliable and accurate data for artists.</p>
-
 
             <h4>Support</h4>
             <p>For any questions or support, please contact us at <a href="mailto:support@statizer.com">support@statizer.com</a></p>
