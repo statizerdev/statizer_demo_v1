@@ -1,7 +1,7 @@
 'use client';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-
+import NewsletterForm from './NewsletterForm';
 
 export default function Hero() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -37,8 +37,32 @@ export default function Hero() {
         🚀 Statizer platform is coming soon &ndash; stay tuned!
       </motion.p>
 
-      {/* Spotify embed blokk */}
-      <div
+              {/* Newsletter form, ide kerül a form */}
+      <NewsletterForm />
+
+      {/* "For more information" link */}
+      <div style={{ marginTop: '1rem' }}>
+        <button
+          onClick={handleModalToggle}
+          style={{
+            backgroundColor: '#4caf50', /* Zöld szín */
+            color: '#fff',
+            border: 'none',
+            padding: '0.75rem 1rem', /* Nagyobb padding */
+            borderRadius: '8px',
+            cursor: 'pointer',
+            fontSize: '1rem',
+            transition: 'background-color 0.3s ease'
+          }}
+          onMouseOver={(e) => (e.currentTarget.style.backgroundColor = '#45a049')}
+          onMouseOut={(e) => (e.currentTarget.style.backgroundColor = '#4caf50')}
+        >
+          Click here for more information!
+        </button>
+      </div>
+
+            {/* Spotify embed blokk */}
+            <div
         style={{
           display: 'flex',
           justifyContent: 'center',
@@ -66,27 +90,6 @@ export default function Hero() {
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           loading="lazy"
         ></iframe>
-      </div>
-
-      {/* "For more information" link */}
-      <div style={{ marginTop: '1rem' }}>
-        <button
-          onClick={handleModalToggle}
-          style={{
-            backgroundColor: '#4caf50', /* Zöld szín */
-            color: '#fff',
-            border: 'none',
-            padding: '0.75rem 1rem', /* Nagyobb padding */
-            borderRadius: '8px',
-            cursor: 'pointer',
-            fontSize: '1rem',
-            transition: 'background-color 0.3s ease'
-          }}
-          onMouseOver={(e) => (e.currentTarget.style.backgroundColor = '#45a049')}
-          onMouseOut={(e) => (e.currentTarget.style.backgroundColor = '#4caf50')}
-        >
-          Click here for more information!
-        </button>
       </div>
 
       {/* Modal */}
