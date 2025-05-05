@@ -1,7 +1,6 @@
 'use client';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import NewsletterForm from './NewsletterForm';
 
 export default function Hero() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -37,8 +36,7 @@ export default function Hero() {
         🚀 Statizer platform is coming soon &ndash; stay tuned!
       </motion.p>
 
-              {/* Newsletter form, ide kerül a form */}
-      <NewsletterForm />
+      
 
       {/* "For more information" link */}
       <div style={{ marginTop: '1rem' }}>
