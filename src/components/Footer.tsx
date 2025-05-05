@@ -1,5 +1,7 @@
 'use client';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
+
 
 export default function Footer() {
   return (
@@ -29,7 +31,7 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
+          <Image
             src="/euphonix_128.png"
             alt="Euphonix Logo"
             style={{ width: '32px', height: '32px', objectFit: 'contain' }}
@@ -40,7 +42,7 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
+          <Image
             src="/invibes_128.png"
             alt="INVIBES Logo"
             style={{ width: '48px', height: '48px', objectFit: 'contain' }}

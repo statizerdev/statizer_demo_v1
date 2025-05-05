@@ -2,10 +2,12 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 
+
 export default function NewsletterForm() {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const [submitting, setSubmitting] = useState(false);
+
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -33,7 +35,7 @@ export default function NewsletterForm() {
       } else {
         setMessage('Something went wrong. Please try again.');
       }
-    } catch (error) {
+    } catch {
       setMessage('Network error. Please try again.');
     }
 

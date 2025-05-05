@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 
+
 export default function Hero() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -18,7 +19,7 @@ export default function Hero() {
     >
       <h1 style={{ fontSize: '3.5rem', marginBottom: '1rem' }}>Statizer</h1>
       <p style={{ fontSize: '1.25rem' }}>
-        All your artist stats from Spotify, SoundCloud, and YouTube Music –
+        All your artist stats from Spotify, SoundCloud, and YouTube Music &ndash;
         <br />
         unified & simplified.
       </p>
@@ -33,7 +34,7 @@ export default function Hero() {
           color: '#fff'
         }}
       >
-        🚀 Statizer platform is coming soon — stay tuned!
+        🚀 Statizer platform is coming soon &ndash; stay tuned!
       </motion.p>
 
       {/* Spotify embed blokk */}
@@ -118,13 +119,13 @@ export default function Hero() {
               overflowY: 'auto'
             }}
           >
-            <h3>Welcome to the Statizer Web App</h3>
-            <p>Welcome to the Statizer Web App, the web-based version of the popular phone app Statizer, created by KILIAM & Coegi and powered by Euphonix & INVIBES Recordings.</p>
+            <h3>Statizer Web App</h3>
+            <p>Welcome to the Statizer Web App, the web-based version of the popular phone app Statizer, created by developer KILIAM and powered by Euphonix & INVIBES Recordings.</p>
 
             <h4>About Statizer</h4>
-            <p>Statizer is a powerful tool designed for artists worldwide. It provides an easy and efficient way to track your performance across major digital streaming platforms. Whether you're an independent artist or part of a label, Statizer helps you stay informed about your streaming stats, empowering you to make data-driven decisions.</p>
+            <p>Statizer is a powerful tool designed for artists worldwide. It provides an easy and efficient way to track your performance across major digital streaming platforms. Whether you&apos;re an independent artist or part of a label, Statizer helps you stay informed about your streaming stats, empowering you to make data&ndash;driven decisions.</p>
 
-            <h4>Features</h4>
+            <h4>Early info about features</h4>
             <ul>
               <li>Comprehensive Stats: View your streaming data from platforms like Spotify, SoundCloud, Apple Music, and YouTube Music.</li>
               <li>Cross-Platform Access: Access your stats seamlessly from both the mobile app and the web app.</li>
@@ -137,7 +138,6 @@ export default function Hero() {
             <h4>Support</h4>
             <p>For any questions or support, please contact us at <a href="mailto:support@statizer.com">support@statizer.com</a></p>
 
-            <p>Thank you for choosing Statizer to help you grow your music career!</p>
 
             <button
               onClick={handleModalToggle}
