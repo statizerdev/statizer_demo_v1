@@ -49,6 +49,10 @@ export default function Footer() {
           />
         </a>
       </div>
+      <label style={{ display: 'flex', alignItems: 'center' }}>
+        <input type="checkbox" required style={{ marginRight: '0.5rem' }} />
+          I agree to the <a href="/privacy-policy" target="_blank">Privacy Policy</a>
+      </label>
     </motion.footer>
   );
 }
