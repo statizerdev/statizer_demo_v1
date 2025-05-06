@@ -1,7 +1,7 @@
 'use client';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -51,7 +51,7 @@ export default function Footer() {
       </div>
       <label style={{ display: 'flex', alignItems: 'center' }}>
         <input type="checkbox" required style={{ marginRight: '0.5rem' }} />
-          I agree to the <a href="/privacy-policy" target="_blank">Privacy Policy</a>
+          I agree to the <Link href="/privacy-policy" target="_blank">Privacy Policy</Link>
       </label>
     </motion.footer>
   );
