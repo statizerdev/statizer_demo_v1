@@ -3,7 +3,7 @@ import React from 'react';
 const PrivacyPolicy = () => {
   return (
     <div style={{
-      padding: '2rem',
+      padding: '0',
       textAlign: 'center',
       background: 'url("/bg01.jpg") no-repeat center center fixed',
       backgroundSize: 'cover',
