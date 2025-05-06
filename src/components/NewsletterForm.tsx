@@ -97,7 +97,7 @@ export default function NewsletterForm() {
 
         <label style={{ display: 'flex', alignItems: 'center' }}>
           <input type="checkbox" required style={{ marginRight: '0.5rem' }} />
-            I agree to the <Link href="/privacy-policy" target="_blank">Privacy Policy</Link>
+            I agree to the <Link href="/privacy-policy" target="_blank">_Privacy Policy</Link>
         </label>
 
         {message && (
