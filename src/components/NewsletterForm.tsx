@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 
 export default function NewsletterForm() {
@@ -94,9 +95,9 @@ export default function NewsletterForm() {
           {submitting ? 'Sending...' : 'Notify Me'}
         </button>
 
-        <label>
-        <input type="checkbox" required />
-          I agree to the <a href="/privacy-policy" target="_blank">Privacy Policy</a>
+        <label style={{ display: 'flex', alignItems: 'center' }}>
+          <input type="checkbox" required style={{ marginRight: '0.5rem' }} />
+            I agree to the <Link href="/privacy-policy" target="_blank">Privacy Policy</Link>
         </label>
 
         {message && (
