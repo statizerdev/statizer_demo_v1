@@ -93,6 +93,12 @@ export default function NewsletterForm() {
         >
           {submitting ? 'Sending...' : 'Notify Me'}
         </button>
+
+        <label>
+        <input type="checkbox" required />
+          I agree to the <a href="/privacy-policy" target="_blank">Privacy Policy</a>
+        </label>
+
         {message && (
           <span style={{ marginLeft: '0.5rem', color: 'lime', fontWeight: 'bold' }}>
             {message}
