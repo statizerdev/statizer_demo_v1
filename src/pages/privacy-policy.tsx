@@ -5,9 +5,8 @@ const PrivacyPolicy = () => {
     <div style={{
       padding: '0',
       textAlign: 'center',
-      background: 'url("/bg01.jpg") no-repeat center center fixed',
       backgroundSize: 'cover',
-      color: 'white',  // A szöveg fehér lesz
+      color: 'black',  // A szöveg fehér lesz
       height: '100vh',  // A teljes magasságot kitölti
       margin: '0',  // Ne legyen margó
     }}>
