@@ -2,9 +2,15 @@ import React from 'react';
 
 const PrivacyPolicy = () => {
   return (
-    <div style={{ padding: '2rem', textAlign: 'center', background: 'linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/bg01.jpg")',
+    <div style={{
+      padding: '2rem',
+      textAlign: 'center',
+      background: 'url("/bg01.jpg") no-repeat center center fixed',
       backgroundSize: 'cover',
-      backgroundPosition: 'center',}}>
+      color: 'white',  // A szöveg fehér lesz
+      height: '100vh',  // A teljes magasságot kitölti
+      margin: '0',  // Ne legyen margó
+    }}>
       <h1>Privacy Policy</h1>
       <p>Your privacy is very important to us. We respect your privacy and are committed to protecting your personal data.</p>
       <h2>Information Collection</h2>
