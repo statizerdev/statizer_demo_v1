@@ -46,7 +46,7 @@ export default function HomePage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
           >
-            Your Artist Stats, Redefined
+            Your Artist Stats, <br></br> In One Place
           </motion.h1>
 
           <motion.p
