@@ -21,6 +21,6 @@ Statizer is proudly powered by **Euphonix** & **INVIBES Recordings**, ensuring r
 
 ## Support
 
-For any questions or support, please contact us at [support@statizer.com](mailto:support@statizer.com).
+For any questions or support, please contact us at [support@statizer.com](mailto:support@statizer.net).
 
 ## More information to be announced soon!
