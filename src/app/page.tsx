@@ -223,7 +223,7 @@ export default function HomePage() {
         </div>
 
         <div className="flex flex-wrap justify-center gap-4 mb-16">
-          <a href="https://www.instagram.com/statizer" target="_blank" rel="noopener noreferrer"
+          <a href="https://www.instagram.com/statizer_net" target="_blank" rel="noopener noreferrer"
             className="px-6 py-3 rounded-full bg-white/10 hover:bg-white/20 text-white font-medium border border-white/20 backdrop-blur-md shadow transition-all duration-300"
           >
             Instagram
