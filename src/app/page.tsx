@@ -57,7 +57,7 @@ export default function HomePage() {
           >
             Statizer is currently under development.
             <br />
-            Soon you'll be able to explore real-time <strong className="text-white">artist statistics</strong> from platforms like <strong className="text-white">Spotify</strong> — effortlessly and without sign-up.
+            Soon you will be able to explore real-time <strong className="text-white">artist statistics</strong> from platforms like <strong className="text-white">Spotify</strong> — effortlessly and without sign-up.
           </motion.p>
 
           {/* Animált Coming Soon gomb */}
